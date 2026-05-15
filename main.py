@@ -16,7 +16,7 @@ from retrieval.retriever import DocumentRetriever
 from generation.drafter import DraftGenerator
 from improvement.learner import EditLearner
 
-app = FastAPI(title="Legal AI — Pearson Specter Litt")
+app = FastAPI(title="Pdf reader and Draft generator")
 
 app.add_middleware(
     CORSMiddleware,
